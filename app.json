@@ -35,6 +35,30 @@
             "description": "Send me SHAREUs API",
             "required": false
         },
+        "SELF_DELETE_SECONDS": {
+            "description": "How Many Sec that message will shown",
+            "required": false
+        },
+        "DOWNLOAD_TEXT_NAME": {
+            "description": "How To Download button to ?",
+            "required": false
+        },
+        "DOWNLOAD_TEXT_URL": {
+            "description": "How To Download button Url",
+            "required": false
+        },
+        "CAPTION_BUTTON": {
+            "description": "Caption Under Button",
+            "required": false
+        },
+        "CAPTION_BUTTON_URL": {
+            "description": "Caption Under Button Url",
+            "required": false
+        },
+        "START_TXT": {
+            "description": "Staring Text",
+            "required": false
+        },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false
