@@ -88,4 +88,4 @@ DOWNLOAD_TEXT_URL = environ.get("DOWNLOAD_TEXT_URL", "https://www.google.com/")
 CAPTION_BUTTON = environ.get("CAPTION_BUTTON", "Support ⚡")
 CAPTION_BUTTON_URL = environ.get("CAPTION_BUTTON_URL", "https://t.me/RolexMoviesOX")
 
-   # Auto Delete For Bot Sending Files #
+YOUR_CHANNEL = environ.get("YOUR_CHANNEL", "https://t.me/RolexMoviesOX")
