@@ -63,10 +63,6 @@
             "description": "Channel Name",
             "required": false
         },
-        "YOUR_LINK": {
-            "description": "BOT Name",
-            "required": false
-        },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false
