@@ -451,7 +451,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         await query.answer("You clicked About Me")
         buttons = [[
-            InlineKeyboardButton('Community ❤️‍🔥', url='https://t.me/RolexMoviesOX'),
+            InlineKeyboardButton('Community ❤️‍🔥', url=YOUR_CHANNEL),
             InlineKeyboardButton('Stats ‼️', callback_data='stats')
         ], [
             InlineKeyboardButton('«« Main Page »»', callback_data='start'),
