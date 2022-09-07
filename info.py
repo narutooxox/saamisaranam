@@ -89,3 +89,4 @@ CAPTION_BUTTON = environ.get("CAPTION_BUTTON", "Support ⚡")
 CAPTION_BUTTON_URL = environ.get("CAPTION_BUTTON_URL", "https://www.google.com/")
 
 YOUR_CHANNEL = environ.get("YOUR_CHANNEL", "https://www.google.com/")
+YOUR_NAME = environ.get("YOUR_NAME", "https://www.google.com/")
