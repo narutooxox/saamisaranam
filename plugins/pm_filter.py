@@ -538,8 +538,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         await query.answer("You clicked Status")
         buttons = [[
-            InlineKeyboardButton('«« Main Page »»', callback_data='about'),
-            InlineKeyboardButton('🔄 Refrsh One 🔄', callback_data='rfrsh')
+            InlineKeyboardButton('«« Main Page »»', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -557,8 +556,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('«« Main Page »»', callback_data='about'),
-            InlineKeyboardButton('🔄 Refrsh One 🔄', callback_data='rfrsh')
+            InlineKeyboardButton('«« Main Page »»', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
